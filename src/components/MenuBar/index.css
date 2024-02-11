@@ -1,0 +1,28 @@
+.menubarList {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-top: rgb(162, 159, 159) solid 3px;
+  border-bottom: rgb(162, 159, 159) solid 3px;
+  /* padding: 7px 0px 0px 0px; */
+}
+.menuButton {
+  background-color: transparent;
+  border: none;
+  font-size: medium;
+}
+
+.activeButton {
+  color: red;
+  border-bottom: solid red;
+}
+.deactiveButton {
+  color: black;
+}
+
+.menuBarListLi {
+  list-style-type: none;
+}

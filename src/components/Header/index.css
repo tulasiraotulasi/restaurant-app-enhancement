@@ -1,0 +1,41 @@
+.header {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.headerInner {
+  color: gray;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  font-weight: bold;
+}
+.icons {
+  font-size: x-large;
+}
+.redCount {
+  padding: 1px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: x-small;
+  align-self: flex-start;
+}
+.orderBtn {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.restName {
+  color: black;
+  text-decoration: none;
+}
+

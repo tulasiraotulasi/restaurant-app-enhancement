@@ -1,0 +1,57 @@
+.cartItemsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+  width: 80vw;
+  height: 25vh;
+  box-sizing: border-box;
+  margin-bottom: 3%;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  padding-right: 5%;
+}
+.leftdiv {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 40%;
+}
+.rightdiv {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* border: 1px solid blue; */
+  width: 70%;
+  height: auto;
+  box-sizing: border-box;
+}
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding: 0;
+  width: 8vw;
+}
+.cartFoodImage {
+  width: 50%;
+  height: 100%;
+  padding: 0;
+}
+.dishName,
+.foodDes {
+  padding: 0;
+  align-self: flex-start;
+}
